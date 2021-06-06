@@ -4,10 +4,6 @@ func ExistsInSlice(a []string, b string) bool {
 		return false
 	}
 
-	if len(a) != len(b) {
-		return false
-	}
-
 	for i := range a {
 		if a[i] == b {
 			return true
